@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Name: DUMBKOPF
+  Name: MyAgentPool
 
 steps:
 - script: echo Hello, world!
