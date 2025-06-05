@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Name: Default
+  Name: DUMBKOPF
 
 steps:
 - script: echo Hello, world!
