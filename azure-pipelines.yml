@@ -10,6 +10,10 @@ pool:
   Name: MyAgentPool
 
 steps:
+- checkout: self
+  fetchDepth: 1
+  fetchTags: true
+
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
