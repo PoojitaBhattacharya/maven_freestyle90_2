@@ -9,6 +9,12 @@ trigger:
 pool:
   Name: MyAgentPool
 
+resources:
+  repositories:
+    - repository: self
+      type: git
+      name: MyProject/MyRepo
+
 steps:
 - checkout: self
   fetchDepth: 1
