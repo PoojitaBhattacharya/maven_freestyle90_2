@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Name: MyAgentPool
+  name: MyAgentPool
 
 resources:
   repositories:
